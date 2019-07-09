@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
+<body>
+  <div>
+    <div id="inner">
+      <h1 id="title">My Sample Survey Form</h1>
+      <p id="description">Please fill the below</p>
+      <form id="survey-form">
+        <label id="name">Name:</label>
+        <input type="name" value="" id="name-label" placeholder="name"><br> <br>
+        <label id="email">Email:</label>
+        <input type="email"  required value="" id="email-label" placeholder="email"><br><br>
+        <label id="number">Number:</label>
+        <input type="number" min="1" max="11" value="" id="nunber-label" placeholder="number"><br><br>
+        <label>Select</label>
+        <select id="dropdown">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select><br><br>
+        <label>Gender</label><br>
+       <input type="radio" name="gender" value="male" checked>Male <br> 
+         <input type="radio" name="gender" value="femaile" checked>Female <br> 
+        <input type="radio" name="gender" value="other" checked>Other <br> <br> 
+        
+        <label>Food</label> <br>      
+        <input type="checkbox"  value="rice" checked>Rice <br>
+        <input type="checkbox"  value="beans" >Beans <br>
+        <input type="checkbox"  value="bread" >Beans <br><br>
+       
+        <textarea rows="10" cols="50">Enter text here.......</textarea><br>
+                <input type="submit" value="Submit">
+        
+        
+      </form>
+      
+    </div>
+    
+    
+  </div>
+  
+</body>
+</html>

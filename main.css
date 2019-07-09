@@ -1,0 +1,44 @@
+body{
+    background: #e4f9f5;
+}
+#inner {
+/*  display: inline-block;*/
+/*  text-align: center;*/
+  width: 40%;
+  padding: 30px;
+  vertical-align: top;
+  margin-top: 10px;
+    border: 1px solid lightgray;
+    background: white;
+    position: absolute;
+    right: 350px;
+
+}
+#title{
+    align-items: center;
+}
+
+
+#survey-form {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+
+#name-label{
+    width: 80%;
+    
+}
+#email-label{
+    width: 80%;
+    bor
+}
+
+[type= "radio"]{
+    margin-top: 10px;
+}
+
+[type="checkbox"]{
+    margin-top: 10px;
+}
